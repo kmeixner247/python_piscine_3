@@ -40,7 +40,8 @@ class Stark(Character):
         - Character
 
     Methods:
-        - die(self): Method to change the health state of the character to ded.
+        - die(self): Method to change the health state of the character to\
+ dead.
 """
     def die(self):
         """Method to change the health state of the character to dead."""
