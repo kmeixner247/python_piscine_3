@@ -1,8 +1,9 @@
 from abc import ABC, abstractmethod
 
+
 class Character(ABC):
     """class Character(ABC)
-    
+
     Abstract class representing a character.
 
     Inherits from:
@@ -26,25 +27,26 @@ class Character(ABC):
 """
         self.first_name = first_name
         self.is_alive = is_alive
-        
+
     @abstractmethod
     def die(self):
         """Abstract method, must be implemented in subclasses"""
         pass
 
+
 class Stark(Character):
     """class Stark(Character)
 
     Subclass representing a character from the Stark family.
-        
+
     Inherits from:
         - Character
 
     Methods:
-        - die(self): Method to change the health state of the character to dead.
+        - die(self): Method to change the health state of the character to ded.
 """
     def die(self):
         """die(self)
-    
+
     Method to change the health state of the character to dead."""
         self.is_alive = False
