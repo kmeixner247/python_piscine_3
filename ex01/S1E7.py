@@ -42,14 +42,14 @@ Defaults to True.
         self.hairs = "dark"
 
     def __str__(self):
-        """'Dunder' method for Baratheon. Returns a string representation in a \
-readable format."""
+        """'Dunder' method for Baratheon. Returns a string representation in a\
+ readable format."""
         return f"({self.first_name} {self.family_name}, alive: {self.is_alive}\
             ,{self.hairs} hairs, {self.eyes} eyes)"
 
     def __repr__(self):
-        """'Dunder' method for Baratheon. This is the format that is asked for \
-in the subject for no reason. As far as I understand, the proper one would be:
+        """'Dunder' method for Baratheon. This is the format that is asked for\
+ in the subject for no reason. As far as I understand, the proper one would be:
 
 return f"Baratheon('{self.first_name}', {self.is_alive})
 
@@ -102,14 +102,14 @@ Defaults to True.
         self.hairs = "light"
 
     def __str__(self):
-        """'Dunder' method for Lannister. Returns a string representation in a \
-readable format."""
+        """'Dunder' method for Lannister. Returns a string representation in a\
+ readable format."""
         return f"({self.first_name} {self.family_name}, alive: {self.is_alive}\
             ,{self.hairs} hairs, {self.eyes} eyes)"
 
     def __repr__(self):
-        """'Dunder' method for Lannister. This is the format that is asked for \
-in the subject for no reason. As far as I understand, the proper one would be:
+        """'Dunder' method for Lannister. This is the format that is asked for\
+ in the subject for no reason. As far as I understand, the proper one would be:
 
 return f"Lannister('{self.first_name}', {self.is_alive})
 
