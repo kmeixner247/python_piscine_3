@@ -63,7 +63,11 @@ from every element of the vector and prints the result.
 of the vector by a scalar and prints the result.
 
     Args:
-        - object (float | int): The scalar to divide the vector by
+        - object (float | int): The scalar to divide the vector by. \
+Cannot be zero.
+
+    Raises:
+        - ZeroDivisionError if scalar is zero.
 """
         try:
             self.vector = [n / object for n in self.vector]
